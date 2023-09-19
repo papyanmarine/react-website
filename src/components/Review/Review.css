@@ -1,0 +1,51 @@
+.review{
+    padding: 24px 0 64px 0;
+}
+.review-header h2{
+    text-align: center;
+}
+.item-name{
+    color:#6E7491;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+}
+.item-location{
+    color: #A1B0CC;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.item-txt{
+    color:  #27273F;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.read-more{
+    color:#605DEC;
+    cursor: pointer;
+}
+.starts{
+    margin: 8px 0 12px 0;
+}
+.review-item{
+    padding: 16px;
+    box-shadow: none;
+    border-radius: 0;
+}
+.review-item-body{
+    margin-left: 16px;
+    width: 80%;
+}
+.review-item .img-wrap.item-img-wrap {
+    border-radius: 50%;
+    width: 20%;
+    height: 66px;
+}
+img.item-img.review-img {
+    border-radius: 50%;
+}

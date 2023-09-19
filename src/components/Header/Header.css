@@ -1,0 +1,36 @@
+.header{
+    padding: 24px 0;
+}
+
+.h-item a{
+    display: inline-block;
+    color: #7C8DB0;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    padding: 10px;
+    padding: 10px 18px;
+    cursor: pointer;
+    transition:  all .3s;
+}
+.menu-item a:hover{
+    color: #605DEC;
+}
+.menu-item a.active{
+    color: #605DEC;
+}
+.reg-item a{
+    padding: 12px 20px;
+    
+}
+.reg-item a:hover{
+    border-radius: 4px;
+    background:  #605DEC;
+    color: white;
+}
+.reg-active a{
+    border-radius: 4px;
+    background:  #605DEC;
+    color: white;
+}

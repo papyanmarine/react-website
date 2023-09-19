@@ -1,0 +1,73 @@
+.popup-content-tltle{
+    font-family: "Nunito Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.5px;
+    color: #605DEC;
+}
+.form-label{
+    color: #6E7491;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+.inp-wrap {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+}
+.inp-wrap  .inp{
+    color: #7C8DB0;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    border-radius: 4px;
+    padding: 8px 16px;
+    outline: none;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #CBD4E6;
+    background: #FFF;
+    box-shadow: 0px 12px 24px 0px rgba(27, 59, 119, 0.05), 0px 24px 60px 0px rgba(6, 47, 125, 0.05), 0px 2px 4px 0px rgba(7, 4, 146, 0.10);
+  }
+
+  .modal-content {
+    padding: 25px;
+}
+.btn{
+    color: #FAFAFA;
+    text-align: center;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    border-radius: 4px;
+    background: #605DEC;
+    padding: 12px 75px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.inp-wrap .error{
+    background: rgba(255, 0, 0, 0.2);
+}
+.error-txt{
+    color: red;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.btn:disabled,
+.btn:disabled :hover{
+    background: #6b6b6b;
+    color: black;
+    cursor: not-allowed;
+}

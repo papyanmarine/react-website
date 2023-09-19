@@ -1,0 +1,37 @@
+.back{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.back:hover{
+    color: #605DEC;
+}
+.single-package{
+    margin: 40px 0;
+}
+.single-package>div{
+    width: 50%;
+}
+img.single-img.packages-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.single-item-text{
+    margin: 20px 0;
+}
+h3.single-item-title{
+    font-size: 24px;
+}
+button.buy {
+    border-radius: 4px;
+    background: #605DEC;
+    color: white;
+    border: none;
+    padding: 5px 50px;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    margin-left: 30px;
+    cursor: pointer;
+}
